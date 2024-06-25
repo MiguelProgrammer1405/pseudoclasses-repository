@@ -1,0 +1,94 @@
+/* first child pseudoclass */
+
+.list-item:first-child {
+  color: red;
+  background: orange;
+}
+
+/* last child pseudoclass */
+
+.list-item:last-child {
+  color: red;
+  background: black;
+}
+
+/* disable class and enable class*/
+.btn:disabled {
+  background: blue;
+  color: white;
+}
+
+.btn:enabled {
+  background: gold;
+  border: none;
+}
+
+/* last of type */
+
+.unordered-list {
+  list-style-type: none;
+}
+
+.list-item-2:last-of-type {
+  color: white;
+  background: black;
+}
+
+/* :empty pseudoclass */
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: red;
+}
+
+.box:empty {
+  background: black;
+}
+
+/* only child  */
+
+.only-child-div {
+  width: 100%;
+  background: black;
+}
+
+.child:only-child {
+  color: red;
+  font-weight: 700;
+}
+
+/* only of type pseudoclass */
+
+.only-of-type {
+  background: orange;
+}
+
+.only-element:only-of-type {
+  color: white;
+}
+
+/* :not() class */
+
+.not-class {
+  background: gold;
+}
+
+.heading-2:not(.special) {
+  font-weight: 100;
+  color: red;
+  background-color: black;
+}
+
+/* :nth of type pseudoclass */
+
+.paragraph-container {
+  background: rgb(152, 152, 235);
+}
+
+.paragraph:nth-of-type(2n) {
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+  text-transform: capitalize;
+}

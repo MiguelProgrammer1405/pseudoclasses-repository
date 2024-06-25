@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio pseudoclases</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <h1>first child and last child pseudoclases</h1>
+    <ol>
+      <li class="list-item">Home</li>
+      <li class="list-item">Acerca de</li>
+      <li class="list-item">Blog</li>
+      <li class="list-item">Boletin</li>
+    </ol>
+    <!-- dissable class -->
+    <h1>dissable and enabled pseudoclases</h1>
+    <div class="btn-container">
+      <button class="btn">click here</button>
+      <button class="btn">click here</button>
+      <button class="btn" disabled>click</button>
+    </div>
+    <!-- last of type -->
+    <h1>last of type pseudoclass</h1>
+    <ul class="unordered-list">
+      <li class="list-item-2">Home</li>
+      <li class="list-item-2">Acerca de</li>
+      <li class="list-item-2">Blog</li>
+      <li class="list-item-2">Boletin</li>
+    </ul>
+    <!-- empty class -->
+    <h1>empty pseudoclass</h1>
+    <div class="box"></div>
+    <!-- only child -->
+    <h1>only child pseudoclass</h1>
+    <div class="only-child-div">
+      <p class="child">I am the only child</p>
+    </div>
+    <h1>only of type pseudoclass</h1>
+    <div class="only-of-type">
+      <h2>hello world</h2>
+      <h2>this is a second heading two</h2>
+      <h2 class="this">this is a third heading two</h2>
+      <h4 class="only-element">I am the only heading four</h4>
+    </div>
+    <!-- :not() pseudoclass -->
+    <h1>:not() class</h1>
+    <div class="not-class">
+      <h2 class="heading-2">this is a heading two</h2>
+      <h2 class="heading-2">this is a second heading two</h2>
+      <h2 class="heading-2 special">this is a third and special heading two</h2>
+      <h2 class="heading-2">this is a four heading two</h2>
+    </div>
+    <!-- :nth of type pseudoclass -->
+    <h1>:nth of type pseudoclass</h1>
+    <p>
+      El el siguiente div voy a seleccionar los parrafos(p) pares con nth of
+      type pseudoclass
+    </p>
+    <div class="paragraph-container">
+      <p class="paragraph">I am the first paragraph</p>
+      <p class="paragraph">I am the second paragraph</p>
+      <p class="paragraph">I am the third paragraph</p>
+      <p class="paragraph">I am the fourth paragraph</p>
+      <p class="paragraph">I am the fifth paragraph</p>
+      <p class="paragraph">I am the sixth paragraph</p>
+    </div>
+  </body>
+</html>
